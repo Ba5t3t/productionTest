@@ -1,0 +1,36 @@
+body {
+    background-color: lightcyan;
+    background-image: url(https://proprikol.ru/wp-content/uploads/2020/11/kartinki-pshenichnoe-pole-17.jpg);
+}
+
+.card {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.card-content {
+    font-weight: bold;
+}
+
+.container {
+    width: fit-content;
+    height: fit-content;
+    background-color: yellow;
+    border-style: double;
+    padding: 14px;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
